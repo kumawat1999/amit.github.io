@@ -1,0 +1,94 @@
+/* .mandiv{
+    width:40%;
+    height:380px;
+    padding:30px;
+    background-color: rgb(211, 253, 253);
+    margin-left:28%;
+    border-radius: 10px;
+    margin-top:30px;
+}
+
+input{
+    width:98%;
+    height:33px;
+    border-radius: 5px;
+    background-color: rgb(255, 254, 254);
+    color: rgb(168, 168, 168);
+    margin-top:20px;
+}
+input:hover{
+    border-color:rgb(43, 43, 43);
+
+}
+.btnn{
+    background-color: rgb(56, 238, 56);
+    color: black;
+    font-size: x-large;
+    width:100px;
+}
+.btnn:hover{
+    background-color: green;
+    color: wheat;
+}
+.btnn2{
+    background-color: rgb(56, 238, 56);
+    color: black;
+    font-size: x-large;
+    width:100px;
+    float: right;
+}
+.btnn2:hover{
+    background-color: green;
+    color: wheat;
+}
+.us{
+    font-size:40px;
+    margin-bottom:0px;
+    text-align: center;
+} */
+
+
+.contect_form{
+display: flex;
+flex-direction: column;
+padding: 15px;
+gap: 5px;
+background-color: red;
+border-radius:20px;
+/* cursor: move; */
+}.heding_detials{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    height:30vh;
+}.mandiv{
+    /* float: left; */
+    /* padding:20%; */
+    margin-top: 12%;
+
+}.form{
+    text-align: center;
+}
+input{
+    border-radius:5px;
+    height:26px;
+}
+button{
+    display: flex;
+    margin-left: 26%;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 12px;
+    border-color: white;
+    color: wheat;
+    font-size: 100%;
+}
+.logos{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 39%;
+    padding: 0px;
+    margin-bottom: -34px;
+}

@@ -1,0 +1,121 @@
+ /* profile....... imgage........resume diteals css.......... */
+.profile{
+    border: 1px solid;
+    width: 36%;
+    text-align: center;
+    font-size:15px;
+    margin: 5px;
+    background-color: #bdbbba;
+    /* margin-left:30%; */
+}
+.profilepic{
+    width: 36%;
+    /* text-align: center; */
+    margin:5px;
+    border: 1px solid;
+    height:464px;
+    background-color: rgb(234 234 234);
+    /* margin-left:30%; */
+
+}
+
+.Address{
+    margin-left:35px;
+}
+.myimgdiv{
+    background-color: rgb(83, 79, 79);
+    border-radius: 50%;
+    width: 32.3%;
+    margin-left: 32%;
+}
+.myimg{
+    height: 150px;
+    margin: auto;
+    width: 151px;
+    /* margin-left: 175px; */
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 2.2%;
+    }
+.detials{
+        float: right;
+        width: 62%;
+        margin-top: -687px;
+        height:80%;
+        background-color: antiquewhite;
+        
+        /* padding-top:10px;         */
+}
+.heding{
+    padding-left:50px;
+    font-size:18px;
+}
+.paregraf{
+    padding-left:75px;
+}
+.resum_heding{
+    border: 1px solid;
+    width: 92%;
+    text-align: center;
+    font-size: 17px;
+    margin: 5px;
+    background-color: orangered;
+}
+.imgclass{
+    float: right;
+    margin-top: -45%;
+    border: 1px solid;
+    width:52%;
+    margin-top:-472px;
+    margin-left:49%;
+}
+.inputtt{
+    border-radius: 5px;
+    width: 27%;
+    height: 68%;
+    font-size: 180%;
+    background-color: #5d5d5d;
+    color: white;
+}
+.View_img {
+    height: 68%;
+    width: 27%;
+    margin-top: 41px;
+    border: 10px;
+    border-color: red;
+    padding: 10px;
+    background-color: #cfcfcf;
+    border-radius: 25%;
+}
+.resum_man_div{
+    margin-left:47%;
+    margin-top: 3%;
+        
+    }
+/* popup and pdf uploded file css ........................................................... */
+
+/* popup and pdf uploded file css......................................................  */
+
+/* downlode resum button css  start ..................... */
+
+.Downlod {
+    margin-left: 32px;
+    background-color: inherit;
+    border-radius: 20px;
+    margin-left: 47%;
+    margin-top: -35%;
+    height: 39px;
+    width: 14%;
+    text-align: center;
+    font-size: 176%;
+    background-color: #0000ee;
+    text-decoration: none;
+    color: white;
+    border-color: blue;
+}
+.butt1:hover{
+  background-color: white;
+}
+
+/* downlode resum button css  and ..................... */
+

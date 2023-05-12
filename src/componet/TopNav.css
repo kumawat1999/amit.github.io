@@ -1,0 +1,37 @@
+ .contaaner{
+    background-color: rgb(7 11 14);
+    display: flex;
+    align-items: baseline;
+    padding-left: 14px;
+    padding-right:14px;
+    padding-bottom:5px;
+    padding-top:5px;
+}.nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: auto;
+    float:right;
+    order:2;
+}.logo{
+    width:36px;
+    height: 36px;
+    border-radius: 60%;
+    margin-top: 5px;
+}.home{
+    color:rgb(139, 136, 136);
+    font-size: 23px;
+    text-decoration: none;
+    margin-top:10px;
+}.home:hover{
+    background-color: rgb(2, 0, 36);
+    color: rgb(0, 28, 151);
+    border-radius:50%;
+}.hey{
+    color: antiquewhite;
+    margin-left:3%;
+    font-size:24px;
+}.hey:hover{
+    color:blue;
+}
