@@ -1,0 +1,63 @@
+.man_div{
+    background-color: rgb(0, 0, 0);
+    height:39px;
+    width:96%;
+    margin-left:2%;
+}
+.man_div2{
+    background-color: rgb(0, 0, 0);
+    height:39px;
+    width:96%;
+    margin-left:2%;
+}
+.frintend_sit{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: auto;
+    float:left;
+    order:2;
+    font-size: 93%;
+    background-color: #f6f6f6;
+}
+.Html{
+    font-size:200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 18px;
+}
+.emogi{
+    height:22px;
+    width:44px;
+}
+.frontend{
+    margin-left: 39%;
+    color: green;
+    text-decoration-thickness: initial;
+    font-variant-caps: small-caps;
+    font-variant-east-asian: jis83;
+    text-decoration-style: solid;
+    grid-auto-flow: revert;
+    stroke-dashoffset: unset;
+    font-size: 129%;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+.backend_sit{
+    display: flex;
+    gap: 33px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 25%;
+    float: left;
+    order: 2;
+    font-size: 22px;
+    background-color: #f6f6f6;
+}
