@@ -55,6 +55,7 @@ padding: 15px;
 gap: 5px;
 background-color: red;
 border-radius:20px;
+margin-top: 28px;
 /* cursor: move; */
 }.heding_detials{
     display: flex;
@@ -92,3 +93,41 @@ button{
     padding: 0px;
     margin-bottom: -34px;
 }
+
+
+@media screen and (max-width: 320px)and (max-height:480px) {
+
+
+
+    .contect_form {
+        font-size: 8px;
+        height: 372px;
+        width: 177px;
+        margin-top: 199px;
+        margin-left: 13px;
+    }
+    img.logos {
+        height: 36px;
+        width: 36px;
+        margin-left: 75px;
+    }
+    h1.form {
+        font-size: 15px;
+        margin-top: 27px;
+    }
+    input {
+        height: 27px;
+        font-size: 10px;
+    }
+    label {
+        font-size: 11px;
+    }
+    textarea#Message {
+        height: 70px;
+    }
+
+
+
+
+}
+

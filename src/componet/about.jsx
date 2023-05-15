@@ -27,23 +27,15 @@ const about = () => {
             </div>
             {/* modale file resum uploded  */}
                 
-            <a href={buttonprofile} target='blank' download="My">
-                    <button className='Downlod'>
-                        Download CV
-                    </button>
-                </a>
+            
+        </div>
 
                 <div className='resum_man_div'> 
-                        <input type="button" value="View Cv" className='inputtt' id="modal-btn" name="modal-btn"  />
-                            {/* <lable className="">View Cv <i class='iclass'></i></lable> */}
-                <div>
-                        <img src={View_img} alt="" className='View_img' />  
-                        <div class="modal-wrap">
-                            <img src={madalimg} alt="" className='imgclass' />
-                        </div>
-                    </div>
+
+                        <a href={buttonprofile} target='blank' type='button' className='Downlod' download="My"> Download CV</a>
+                        <input type="button" value="View CV" className='inputtt' id="modal-btn" name="modal-btn"  />
+                    
                 </div>
-        </div>
     </>
   )
 }

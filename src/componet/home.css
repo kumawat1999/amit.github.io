@@ -7,7 +7,8 @@
     display: flex;
     flex-direction: column;
     align-items: self-start;
-    margin-top: 10%;
+    margin-top: 2%;
+    color: wheat;
 }.about.p{
     text-align: left;
 }.pic_my{
@@ -29,3 +30,52 @@
 }
 
 
+
+
+
+@media screen and (max-width: 320px)and (max-height:480px) {
+    .home_mane{
+    height: 100vh;
+    width: 107%;
+   }
+    .hh11{
+        font-size: 21px;
+        margin-top: 12px;
+        margin-left: 128px;
+    }
+    .ppp {
+        font-size: 10px;
+        margin-left: 41px;
+        height: 152px;
+        width: 186px;
+        margin-top: 21px;
+    }
+   
+    .pic_my {
+        width: 86px;
+        margin-left: 29px;
+        margin-top: -87px;
+        height: 106px;
+    }
+    
+    .my_info_cotainer{
+        display: flex;
+        padding: 36px
+    }
+.buttons{
+    margin-top: 70px;
+    width: 184px;
+    height: 55px;
+    font-size: 13px;
+    padding: 3px;
+    margin-left: 54px;
+}
+.Contectme{
+    padding: 0px;
+    margin: 4px;
+}
+
+
+
+
+}

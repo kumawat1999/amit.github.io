@@ -10,11 +10,12 @@ const Home = () => {
         {/* <TopNav></TopNav> */}
         <div className='my_info_cotainer'>
           <div className='about'>
+           
             <h1 className='hh11'> 
               About Me
               </h1>
             <img src={mainBaking} className='pic_my' alt="" ></img>
-              <p className='ppp'><h5><b><i>Hi, I'm Amit kumawat,</i></b> and I graduated from University of rajasthan in 2023 with a degree in Computer Science. My inter I previously worked at Compny X, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo cum iure voluptate recusandae accusamus fugit nulla laborum praesentium aspernatur, delectus ut sunt incidunt nisi eius iste blanditiis repellendus modi quasi possimus ducimus voluptates repudiandae quidem eaque. Reprehenderit sint maxime sapiente laudantium obcaecati similique. Dolor dolorem, nihil possimus quisquam modi suscipit.</h5>
+              <p ><h5 className='ppp'><b><i>Hi, I'm Amit kumawat,</i></b> and I graduated from University of rajasthan in 2023 with a degree in Computer Science. My inter I previously worked at Compny X, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo cum iure voluptate recusandae accusamus fugit nulla laborum praesentium aspernatur, delectus ut sunt incidunt nisi eius iste blanditiis repellendus modi quasi possimus ducimus voluptates repudiandae quidem eaque. Reprehenderit sint maxime sapiente laudantium obcaecati similique. Dolor dolorem, nihil possimus quisquam modi suscipit.</h5>
               </p>
               <div class='buttons'>
                 <button class="btn-hover color-6"><p className='Contectme'> Contect Me</p>

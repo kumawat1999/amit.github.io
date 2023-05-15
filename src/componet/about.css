@@ -22,12 +22,7 @@
 .Address{
     margin-left:35px;
 }
-.myimgdiv{
-    background-color: rgb(83, 79, 79);
-    border-radius: 50%;
-    width: 32.3%;
-    margin-left: 32%;
-}
+
 .myimg{
     height: 150px;
     margin: auto;
@@ -69,28 +64,38 @@
     margin-top:-472px;
     margin-left:49%;
 }
-.inputtt{
-    border-radius: 5px;
-    width: 27%;
-    height: 68%;
-    font-size: 180%;
-    background-color: #5d5d5d;
-    color: white;
-}
+.inputtt {
+        border-radius: 20px;
+        margin-left: 47%;
+        margin-top: -3%;
+        height: 35px;
+        width: 23%;
+        text-align: center;
+        font-size: 151%;
+        background-color: #0000ee;
+        text-decoration: none;
+        color: white;
+        border-color: blue;
+    }
 .View_img {
     height: 68%;
     width: 27%;
-    margin-top: 41px;
+    margin-top: -293px;
     border: 10px;
     border-color: red;
-    padding: 10px;
+    padding: 3px;
     background-color: #cfcfcf;
     border-radius: 25%;
 }
 .resum_man_div{
-    margin-left:47%;
-    margin-top: 3%;
+    margin-left: 51%;
+    margin-top: -34%;
         
+    }
+
+    .fff{
+        border: 1 px solid;
+        background-color: aqua;
     }
 /* popup and pdf uploded file css ........................................................... */
 
@@ -99,15 +104,13 @@
 /* downlode resum button css  start ..................... */
 
 .Downlod {
-    margin-left: 32px;
-    background-color: inherit;
     border-radius: 20px;
-    margin-left: 47%;
-    margin-top: -35%;
-    height: 39px;
-    width: 14%;
+    margin-left: -12%;
+    margin-top: -76%;
+    height: 35px;
+    width: 23%;
     text-align: center;
-    font-size: 176%;
+    font-size: 151%;
     background-color: #0000ee;
     text-decoration: none;
     color: white;
@@ -118,4 +121,86 @@
 }
 
 /* downlode resum button css  and ..................... */
+
+@media screen and (max-width: 320px)and (max-height:480px) {
+
+    .profile {
+        width: 105%;
+        height: 40px;
+        font-size: 9px;
+    }
+    p.Address {
+        margin-top: -4px;
+    }
+
+    .aboutss{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .profilepic {
+        height: 215px;
+        width: 105%;
+        font-size: 11px;
+    }
+
+
+    img.myimg {
+        height: 53px;
+        width: 54px;
+        margin-top: 2px;
+        margin-left: 136px;
+    }
+
+    button.Downlod {
+        margin-top: 5px;
+        height: 24px;
+        width: 72px;
+        font-size: 9px;
+        margin: 15px;
+        margin-left: 130px;
+    }
+
+    .resum_man_div {
+        width: 105%;
+        margin-left: 13px;
+        margin-top: -193px;
+    }
+    img.View_img {
+        height: 65px;
+        width: 58px;
+        margin-left: 54px;
+        margin-top: 75px;
+    }
+        img.imgclass {
+            margin-top: -154px;
+            height: 153px;
+            width: 124px;
+        }
+        
+        a.Downlod {
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        .inputtt {
+            border-radius: 44px;
+            width: 36%;
+            height: 49%;
+            font-size: 102%;
+            background-color: #0000ee;
+            color: white;
+            margin-top: -13px;
+            margin-left: 74px;
+        }
+} 
+
+
+
+
+
+
+
+
+
+
 
