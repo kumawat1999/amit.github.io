@@ -11,6 +11,12 @@ import TopNav from './componet/TopNav';
 import About from './componet/about';
 import Experiences from './componet/Experiences'; 
 import Projects from './componet/Projects';
+import HtmlProgram from './componet/experiences/HtmlProgram';
+import CssProgram from './componet/experiences/CssProgram';
+import JavascriptProgram from './componet/experiences/JavascriptProgram';
+import LaravelProgram from './componet/experiences/LaravelProgram';
+import PhpProgram from './componet/experiences/PhpProgram';
+import ReactProgram from './componet/experiences/ReactProgram';
 export default function App(){
   return (
     <div>
@@ -28,6 +34,18 @@ export default function App(){
           <Route path="/Experiences" element={<Experiences />}>
           </Route>
           <Route path="/Projects" element={<Projects />}>
+          </Route>
+          <Route path="/HtmlProgram" element={<HtmlProgram />}>
+          </Route>
+          <Route path="/CssProgram" element={<CssProgram />}>
+          </Route>
+          <Route path="/JavascriptProgram" element={<JavascriptProgram />}>
+          </Route>
+          <Route path="/LaravelProgram" element={<LaravelProgram />}>
+          </Route>
+          <Route path="/PhpProgram" element={<PhpProgram />}>
+          </Route>
+          <Route path="/ReactProgram" element={<ReactProgram />}>
           </Route>
         </Switch>
 

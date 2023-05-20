@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Projects = () => {
-  return (
-    <div>
-      <p>jhgfghbjuyg</p>
-    </div>
-  )
+export class Projects extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       
+    }
+  }
+  
+  render() {
+    return (
+      <div>
+        Project
+      </div>
+    )
+  }
 }
 
 export default Projects

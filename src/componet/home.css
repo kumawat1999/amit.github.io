@@ -3,6 +3,7 @@
     background-repeat:no-repeat , repeat;
     background-size: cover;
     height: 100vh;
+    width: 100%;
 }.about{
     display: flex;
     flex-direction: column;
@@ -60,7 +61,7 @@
     
     .my_info_cotainer{
         display: flex;
-        padding: 36px
+        padding: 36px;
     }
 .buttons{
     margin-top: 70px;

@@ -49,13 +49,12 @@ input:hover{
 
 
 .contect_form{
-display: flex;
-flex-direction: column;
-padding: 15px;
-gap: 5px;
-background-color: red;
-border-radius:20px;
-margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 1%;
 /* cursor: move; */
 }.heding_detials{
     display: flex;
@@ -125,9 +124,7 @@ button{
     textarea#Message {
         height: 70px;
     }
-
-
-
-
 }
+
+
 
