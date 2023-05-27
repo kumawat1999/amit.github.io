@@ -4,7 +4,8 @@ import profilimg from './img/ass.jpeg';
 import View_img from './img/ass.jpeg';
 import madalimg from './img/resum.jpg';
 import buttonprofile from './img/Amitcv.pdf';
-const about = () => {
+
+const About = () => {
   return (
     <>
         <div className='aboutss'>
@@ -40,4 +41,5 @@ const about = () => {
   )
 }
 
-export default about
+
+export default About;
